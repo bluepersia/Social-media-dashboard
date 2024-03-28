@@ -148,7 +148,7 @@ body {
     padding: 0 6.4% 3.2em;
 }
 
-.dashboard_top-users 
+.dashboard_main-wrapper 
 {
     position: relative;
     top: -3em;
@@ -156,6 +156,7 @@ body {
 
 .dashboard_top-user, .dashboard_stat {
     background-color: var(--color-light-1);
+    max-width: 326px;
 }
 
 .dashboard_top-user {
@@ -285,3 +286,35 @@ body {
     gap: .35em;
 }
 
+.dashboard_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (min-width:768px)
+{
+    .dashboard_header {
+        padding-bottom: 11em;
+    }
+
+    .dashboard_main {
+        display: block;
+    }
+
+    .dashboard_top-users, .dashboard_overview_grid
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(auto, 255px));
+        justify-content: space-between;
+        grid-column-gap: 2.1em;
+    }
+
+    .dashboard_main-wrapper 
+    {
+        position: relative;
+        top: -9em;
+    }
+        
+}
