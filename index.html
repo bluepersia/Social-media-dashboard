@@ -19,72 +19,147 @@
 </head>
 <body>
 
-  Social Media Dashboard
-  Total Followers: 23,004
+  <div class="dashboard">
+    <header class="dashboard_header">
+      <div class="dashboard_header_text">
+        <h1 class="dashboard_title">Social Media Dashboard</h1>
+      <p class="dashboard_counter">Total followers: 23,004</p>
+      </div>
+      <div class="dashboard_dark-mode">
+        <p class="dashboard_dark-mode_label dashboard_body">Dark Mode</p>
+        <div class="switch">
+          <input type="checkbox" class="switch_checkbox" />
+          <span class="switch_slider"></span>
+        </div>
+    </div>
+    </header>
 
-  Dark Mode
+    <main class="dashboard_main">
+      <div class="dashboard_top-users">
+        <div class="dashboard_top-user">
+          <div class="dashboard_top-user_acc">
+            <img src="./images/icon-facebook.svg" class="dashboard_top-user_acc_icon" alt="Facebook logo"/>
+            <p class="dashboard_body-s">@nathanf</p>
+          </div>
+          <h1 class="dashboard_top-user_counter">1987</h1>
+          <p class="dashboard_top-user_followers">Followers</p>
+          <p class="body-s positive"><img src="./images/icon-up.svg" class="dashboard_arrow dashboard_arrow--up" alt="Up arrow"/>12 Today</p>
+        </div>
+        <div class="dashboard_top-user">
+          <div class="dashboard_top-user_acc">
+            <img src="./images/icon-twitter.svg" class="dashboard_top-user_acc_icon" alt="Twitter logo"/>
+            <p class="dashboard_body-s">@nathanf</p>
+          </div>
+          <h1 class="dashboard_top-user_counter">1044</h1>
+          <p class="dashboard_top-user_followers">Followers</p>
+          <p class="body-s positive"><img src="./images/icon-up.svg" class="dashboard_arrow dashboard_arrow--up" alt="Up arrow"/>99 Today</p>
+        </div>
+        <div class="dashboard_top-user">
+          <div class="dashboard_top-user_acc">
+            <img src="./images/icon-instagram.svg" class="dashboard_top-user_acc_icon" alt="Instagram logo"/>
+            <p class="dashboard_body-s">@realnathanf</p>
+          </div>
+          <h1 class="dashboard_top-user_counter">11k</h1>
+          <p class="dashboard_top-user_followers">Followers</p>
+          <p class="body-s positive"><img src="./images/icon-up.svg" class="dashboard_arrow dashboard_arrow--up" alt="Up arrow"/>1099 Today</p>
+        </div>
+        <div class="dashboard_top-user">
+          <div class="dashboard_top-user_acc">
+            <img src="./images/icon-youtube.svg" class="dashboard_top-user_acc_icon" alt="YouTube logo"/>
+            <p class="dashboard_body-s">@Nathan F.</p>
+          </div>
+          <h1 class="dashboard_top-user_counter">8239</h1>
+          <p class="dashboard_top-user_followers">Subscribers</p>
+          <p class="dashboar_body-s negative"><img src="./images/icon-down.svg" class="dashboard_arrow dashboard_arrow--down" alt="Down arrow"/>144 Today</p>
+        </div>
+      </div>
 
-  
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="dashboard_overview">
+        <h2 class="dashboard_overview_title">Overview - Today</h2>
+        <div class="dashboard_overview_grid">
+          <div class="dashboard_stat">
+            <div class="dashboard_stat_top">
+              <p class="dashboard_body">Page Views</p>
+              <img src="./images/icon-facebook.svg" class="dashboard_stat_icon" alt="Facebook logo"/>
+            </div>
+            <div class="dashboard_stat_btm">
+              <h3 class="dashboard_stat_value">87</h3>
+              <p class="dashboard_body-s positive"><img src="./images/icon-up.svg" class="dashboard_arrow dashboard_arrow--up" alt="Up arrow"/>3%</p>
+            </div>
+          </div>
+          <div class="dashboard_stat">
+            <div class="dashboard_stat_top">
+              <p class="dashboard_body">Likes</p>
+              <img src="./images/icon-facebook.svg" class="dashboard_stat_icon" alt="Facebook logo"/>
+            </div>
+            <div class="dashboard_stat_btm">
+              <h3 class="dashboard_stat_value">52</h3>
+              <p class="dashboard_body-s negative"><img src="./images/icon-down.svg" class="dashboard_arrow dashboard_arrow--down" alt="Down arrow"/>2%</p>
+            </div>
+          </div>
+          <div class="dashboard_stat">
+            <div class="dashboard_stat_top">
+              <p class="dashboard_body">Likes</p>
+              <img src="./images/icon-instagram.svg" class="dashboard_stat_icon" alt="Instagram logo"/>
+            </div>
+            <div class="dashboard_stat_btm">
+              <h3 class="dashboard_stat_value">5462</h3>
+              <p class="dashboard_body-s positive"><img src="./images/icon-up.svg" class="dashboard_arrow dashboard_arrow--up" alt="Up arrow"/>2257%</p>
+            </div>
+          </div>
+          <div class="dashboard_stat">
+            <div class="dashboard_stat_top">
+              <p class="dashboard_body">Profile Views</p>
+              <img src="./images/icon-instagram.svg" class="dashboard_stat_icon" alt="Instagram logo"/>
+            </div>
+            <div class="dashboard_stat_btm">
+              <h3 class="dashboard_stat_value">52k</h3>
+              <p class="dashboard_body-s positive"><img src="./images/icon-up.svg" class="dashboard_arrow dashboard_arrow--up" alt="Up arrow"/>1375%</p>
+            </div>
+          </div>
+          <div class="dashboard_stat">
+            <div class="dashboard_stat_top">
+              <p class="dashboard_body">Retweets</p>
+              <img src="./images/icon-twitter.svg" class="dashboard_stat_icon" alt="Twitter logo"/>
+            </div>
+            <div class="dashboard_stat_btm">
+              <h3 class="dashboard_stat_value">117</h3>
+              <p class="dashboard_body-s positive"><img src="./images/icon-up.svg" class="dashboard_arrow dashboard_arrow--up" alt="Up arrow"/>303%</p>
+            </div>
+          </div>
+          <div class="dashboard_stat">
+            <div class="dashboard_stat_top">
+              <p class="dashboard_body">Likes</p>
+              <img src="./images/icon-twitter.svg" class="dashboard_stat_icon" alt="Twitter logo"/>
+            </div>
+            <div class="dashboard_stat_btm">
+              <h3 class="dashboard_stat_value">507</h3>
+              <p class="dashboard_body-s positive"><img src="./images/icon-up.svg" class="dashboard_arrow dashboard_arrow--up" alt="Up arrow"/>553%</p>
+            </div>
+          </div>
+          <div class="dashboard_stat">
+            <div class="dashboard_stat_top">
+              <p class="dashboard_body">Likes</p>
+              <img src="./images/icon-youtube.svg" class="dashboard_stat_icon" alt="YouTube logo"/>
+            </div>
+            <div class="dashboard_stat_btm">
+              <h3 class="dashboard_stat_value">107</h3>
+              <p class="dashboard_body-s negative"><img src="./images/icon-down.svg" class="dashboard_arrow dashboard_arrow--down" alt="Down arrow"/>19%</p>
+            </div>
+          </div>
+          <div class="dashboard_stat">
+            <div class="dashboard_stat_top">
+              <p class="dashboard_body">Total Views</p>
+              <img src="./images/icon-youtube.svg" class="dashboard_stat_icon" alt="YouTube logo"/>
+            </div>
+            <div class="dashboard_stat_btm">
+              <h3 class="dashboard_stat_value">1407</h3>
+              <p class="dashboard_body-s negative"><img src="./images/icon-down.svg" class="dashboard_arrow dashboard_arrow--down" alt="Down arrow"/>12%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </div>
 </body>
 </html>

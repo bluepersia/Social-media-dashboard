@@ -3,7 +3,7 @@
     --color-light-1: hsl(0,0%, 59%);
     --color-light-2: hsl(230, 17%, 14%);
     --color-light-3: hsl(230, 12%, 55%);
-    
+
     --color-dark-1: hsl(230, 20%, 15%);
     --color-dark-2: hsl(228, 28%, 20%);
     --color-dark-3: hsl(228, 34%, 66%);
@@ -11,6 +11,13 @@
     --color-border-7: hsl(208, 92%, 53%);
     --color-border-8: linear-gradient(90deg, hsl(329, 70%, 58%), hsl(5, 77%, 71%), hsl(37, 97%, 70%));
     --color-border-9: hsl(348, 97%, 39%);
+
+    --color-positive: hsl(163, 71%, 41%);
+    --color-negative: hsL(356, 69%, 56%);
+}
+
+html {
+    font-size: 14px;
 }
 body {
     min-height: 100vh;
@@ -24,4 +31,22 @@ body {
 .dashboard, .dashboard * {
     margin:0;
     box-sizing: border-box;
+}
+
+.dashboard_body {
+    font-weight: bold;
+}
+
+.dashboard_body-s
+{
+    font-weight: bold;
+    font-size: .85rem;
+}
+
+.dashboard_positive {
+    color: var(--color-positive)
+}
+
+.dashboard_negative {
+    color: var(--color-negative);
 }
